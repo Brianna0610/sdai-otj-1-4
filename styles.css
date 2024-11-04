@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-style: inherit;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    font-style: oblique;
+}
+
+h3 {
+    color: whitesmoke;
+    text-align: center;
+    font-style: initial;
+    font-size: 25px;
+}
+
+h4 {
+    color: rgb(242, 161, 20);
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    font-size: 20px;
+    
+}
+
+span {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.headers {
+    color: black;
+    font-style: inherit;
+    text-align: center;
+    background-color: grey;
+}
+
+.subheaders {
+    color: rgb(242, 161, 20);
+    text-align: center;
+    font-size: 25px;
+}
