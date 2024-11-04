@@ -34,6 +34,9 @@ p {
     text-align: center;
     font-style: oblique;
     font-size: 20px;
+    word-spacing: normal; padding: 2%;
+    margin: auto;
+    line-height: 1cm;
     
 }
 
@@ -48,10 +51,36 @@ span {
     font-style: inherit;
     text-align: center;
     background-color: grey;
+    margin-inline-start: auto;
 }
 
 .subheaders {
     color: rgb(242, 161, 20);
     text-align: center;
     font-size: 25px;
+}
+
+strong {
+    color: gold;
+}
+
+.menutitle {
+    font-style: inherit;
+    color: whitesmoke;
+    text-align-last: center;
+}
+
+.navbar {
+    background-color: gray;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: gray;
 }
