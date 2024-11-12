@@ -34,7 +34,8 @@ p {
     text-align: center;
     font-style: oblique;
     font-size: 20px;
-    word-spacing: normal; padding: 2%;
+    word-spacing: normal; 
+    padding: 2%;
     margin: auto;
     line-height: 1cm;
     
@@ -83,4 +84,9 @@ strong {
     padding: 10px 20px;
     border-radius: 25px;
     background-color: gray;
+}
+
+.menuphotos {
+    display: flexbox;
+    justify-content: center;
 }
