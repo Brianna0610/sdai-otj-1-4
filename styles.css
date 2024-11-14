@@ -89,16 +89,18 @@ strong {
 
 .menu-photos {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100px;
 }
 
 .gallery {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -106,4 +108,11 @@ strong {
     display: flex;
     text-align: center;
     align-items: center;
+}
+
+.icon-photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
