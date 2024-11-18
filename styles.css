@@ -92,8 +92,7 @@ strong {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 100px;
-    width: 100px;
+    width: 300px;
 }
 
 .gallery {
@@ -112,7 +111,8 @@ strong {
 
 .icon-photos {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    width: 50px;
 }
